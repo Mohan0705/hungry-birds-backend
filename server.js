@@ -3,8 +3,8 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 
-const menuRoutes = require('./routes/menu');
-const orderRoutes = require('./routes/orders');
+const menuRoutes = require('./routes/menu.js');
+const orderRoutes = require('./routes/orders.js');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
